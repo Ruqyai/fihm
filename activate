@@ -1,0 +1,37 @@
+
+------
+
+conda create --name tensorflow_env
+
+pip install -r requirements.txt
+
+-------
+
+source activate tensorflow_env
+
+
+idle3 
+
+----
+file >> open
+
+run >> run module
+
+file >> close
+---
+
+conda deactivate
+
+
+---
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+
+---
+
+Docs » User guide » Tasks » Managing environments
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
