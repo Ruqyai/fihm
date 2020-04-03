@@ -2,7 +2,7 @@ import cv2
 import sys
 
 # Get user supplied values
-imagePath = "/Users/macbook/Desktop/faceDetect/happy-people.jpg"  # the path of image
+imagePath = "happy-people.jpg"  # the path of image
 cascPath = "haarcascade_frontalface_default.xml"
 
 # Create the haar cascade
